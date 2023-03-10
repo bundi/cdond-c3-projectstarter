@@ -117,9 +117,9 @@ jobs:
       - run:
           name: scan frontend dependencies
           command: |
-          cd frontend
-          npm install
-          npm audit --audit-level=critical
+            cd frontend
+            npm install
+            npm audit --audit-level=critical
           
 
   scan-backend:
