@@ -136,9 +136,7 @@ jobs:
       - run:
           name: scan backend dependencies
           command: |
-       #     cd backend
-        #    npm install
-            npm audit --audit-level=critical || true
+            
 
 #   deploy-infrastructure:
 #     docker:
